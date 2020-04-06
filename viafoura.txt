@@ -1,0 +1,12 @@
+Step # 1: Compile "ApuAnagram.java". It contains the method "areAnagrams(String str1, String str2)" to check whether str1 and str2 are anagrams.
+Step # 2: Compile and run "MyAnagram.java" to get some test results.
+Step # 3: To run the unit tests download and save "junit-platform-console-standalone-1.6.1.jar", "hamcrest-core-2.2.jar", "AnagramTests.java", "AnagramTestRunner.java" in the same location.
+Step # 4: Use the following command line to compile unit tests -
+javac -cp junit-platform-console-standalone-1.6.1.jar;. AnagramTests.java AnagramTestRunner.java
+Step # 5: Use the following command line to run unit tests -
+java -cp junit-platform-console-standalone-1.6.1.jar;hamcrest-core-2.2.jar;. org.junit.runner.JUnitCore AnagramTests AnagramTestRunner
+Step # 6: Download and Save "AnagramHttpServer.java" and "wordlist.txt" in the same location.
+Step # 7: Compile and run "AnagramHttpServer.java"
+Step # 8: In the browser hit http://localhost:8000/anagrams/iceman/cinema [You may use any words instead of "cinema" and "iceman"]
+Step # 9: In the browser hit http://localhost:8000/anagrams/iceman [You may use any words from "wordlist.txt" instead of "iceman". SPECIAL NOTE: You may add words in "wordlist.txt" mentioned in Step # 6].
+
